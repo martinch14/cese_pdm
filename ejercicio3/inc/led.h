@@ -1,3 +1,8 @@
+#ifndef _LED_H_
+#define _LDE_H_
+
+
+
 #include"sapi.h"
 
 void LED_parpadear (gpioMap_t led, uint16_t periodo );
@@ -7,5 +12,7 @@ void LED_secuencia_arbitraria( uint16_t periodo, gpioMap_t * psecuencia);
 void LED_secuencia_arbitraria_B( uint16_t periodo, gpioMap_t* psecuencia,
                                                     uint8_t n_leds);
 
+
+#endif /* #ifndef _LED_H_ */
 
 
