@@ -18,14 +18,16 @@ extern "C" {
 
 /*=====[Macros de definicion de constantes publicas]=========================*/
 
-typedef enum {MODO_MENU_PRINCIPAL,MODO_GPIO, MODO_ADC}uartModoMenu_t;
+typedef enum {
+	MODO_MENU_PRINCIPAL, MODO_GPIO, MODO_ADC
+} uartModoMenu_t;
 
 /*=====[Macros estilo funcion publicas]======================================*/
 /*=====[Definiciones de tipos de datos publicos]=============================*/
 /*=====[Prototipos de funciones publicas]====================================*/
-void uartMenuMEFIniciar(void );
-void uartMenuMEFProcesar(void );
-void clearScreen(void );
+void uartMenuMEFIniciar(void);
+void uartMenuMEFProcesar(void);
+void clearScreen(void);
 char* itoa(int value, char* result, int base);
 
 /*=====[Prototipos de funciones publicas de interrupcion]====================*/

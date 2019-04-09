@@ -19,22 +19,21 @@ extern "C" {
 /*=====[Macros de definicion de constantes publicas]=========================*/
 /*=====[Macros estilo funcion publicas]======================================*/
 /*=====[Definiciones de tipos de datos publicos]=============================*/
-typedef enum{
-	TECLA_PRESIONANDO,TECLA_SUELTA,TECLA_APRETADA,TECLA_SOLTANDO
-}antireboteEstadoTecla_t;
-typedef struct{
+typedef enum {
+	TECLA_PRESIONANDO, TECLA_SUELTA, TECLA_APRETADA, TECLA_SOLTANDO
+} antireboteEstadoTecla_t;
+typedef struct {
 	gpioMap_t tecla;
 	antireboteEstadoTecla_t estado;
 	delay_t delay;
-}antireboteTecla_t;
-
+} antireboteTecla_t;
 
 /*=====[Prototipos de funciones publicas]====================================*/
-void antireboteMEFIniciar(antireboteTecla_t* p_antirebote_estructura,gpioMap_t tecla );
+void antireboteMEFIniciar(antireboteTecla_t* p_antirebote_estructura,
+		gpioMap_t tecla);
 void antireboteMEFProcesar(antireboteTecla_t* p_antirebote_estructura);
 void botonPresionado(gpioMap_t tecla);
 void botonSoltado(gpioMap_t tecla);
-
 
 /*=====[Prototipos de funciones publicas de interrupcion]====================*/
 /*=====[C++ fin]=============================================================*/
