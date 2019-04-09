@@ -2,21 +2,6 @@
 
 #include "sapi.h"       // <= sAPI header
 
-/*==================[macros and definitions]=================================*/
-
-/*==================[internal data declaration]==============================*/
-
-/*==================[internal functions declaration]=========================*/
-
-/*==================[internal data definition]===============================*/
-
-/*==================[external data definition]===============================*/
-
-/*==================[internal functions definition]==========================*/
-
-/*==================[external functions definition]==========================*/
-
-/* FUNCION PRINCIPAL, PUNTO DE ENTRADA AL PROGRAMA LUEGO DE RESET. */
 int main(void) {
 
 	/* ------------- INICIALIZACIONES ------------- */
@@ -25,13 +10,13 @@ int main(void) {
 	boardConfig();
 
 	/*Variable para retardo NO Bloqueante*/
-	delay_t delay_led, delay_rebote_tecla_2, delay_rebote_tecla_3;
+	delay_t delay_led, delay_rebote_tecla;
 
 	/*Agrego también un delay de 200 ms  antirebote para las teclas 2 y 3*/
 
 	delayConfig(&delay_led, 500);
-	delayConfig(&delay_rebote_tecla_2, 200);
-	delayConfig(&delay_rebote_tecla_3, 200);
+	delayConfig(&delay_rebote_tecla, 200);
+
 
 	/*Variable para ajuste de sentido, 0) -->>    1) <<-- */
 	uint8_t sentido = 0;
@@ -42,12 +27,12 @@ int main(void) {
 
 		/*Uso TEC2 para <<--    y TEC3 -->> */
 		if (!gpioRead(TEC2)) {
-			if (delayRead(&delay_rebote_tecla_2))
+			if (delayRead(&delay_rebote_tecla))
 				sentido = 1;
 		}
 
 		if (!gpioRead(TEC3)) {
-			if (delayRead(&delay_rebote_tecla_3))
+			if (delayRead(&delay_rebote_tecla))
 				sentido = 0;
 		}
 
