@@ -1,2 +1,2 @@
 # mis_proyectos
-Ejercicios para la materia Programación de Microcontroladores CESE 2019
+Repository for project's  of the subject "Carrera de Especializacion de Sisteman Embebidos (CESE)" Universidad de Buenos Aires (UBA)
