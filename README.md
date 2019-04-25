@@ -1,3 +1,3 @@
 # mis_proyectos
-Repository for career project's "Carrera de Especializacion de Sisteman Embebidos (CESE)",
+Repository for career project's "Carrera de Especialización en Sistemas Embebidos(CESE)",
 Universidad de Buenos Aires (UBA)
