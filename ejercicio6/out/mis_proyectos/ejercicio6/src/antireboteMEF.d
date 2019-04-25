@@ -1,5 +1,5 @@
-mis_proyectos/ejercicio6/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_spi.o: \
- libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_spi.c \
+mis_proyectos/ejercicio6/out/mis_proyectos/ejercicio6/src/antireboteMEF.o: \
+ mis_proyectos/ejercicio6/src/antireboteMEF.c \
  libs/sapi/sapi_v0.5.2/base/inc/sapi.h \
  libs/sapi/sapi_v0.5.2/base/inc/sapi_datatypes.h \
  libs/lpc_open/lpc_chip_43xx/inc/chip.h \
@@ -116,4 +116,6 @@ mis_proyectos/ejercicio6/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_spi.
  libs/sapi/sapi_v0.5.2/external_peripherals/inc/sapi_magnetometer_hmc5883l.h \
  libs/sapi/sapi_v0.5.2/external_peripherals/inc/sapi_magnetometer_qmc5883l.h \
  libs/sapi/sapi_v0.5.2/external_peripherals/inc/sapi_imu_mpu9250.h \
- libs/sapi/sapi_v0.5.2/external_peripherals/inc/sapi_ultrasonic_hcsr04.h
+ libs/sapi/sapi_v0.5.2/external_peripherals/inc/sapi_ultrasonic_hcsr04.h \
+ mis_proyectos/ejercicio6/inc/antireboteMEF.h \
+ mis_proyectos/ejercicio6/inc/motorMEF.h

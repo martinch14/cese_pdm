@@ -1,5 +1,6 @@
-mis_proyectos/ejercicio6/out/libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_spi.o: \
- libs/sapi/sapi_v0.5.2/soc/peripherals/src/sapi_spi.c \
+mis_proyectos/ejercicio6/out/mis_proyectos/ejercicio6/src/rtcMEF.o: \
+ mis_proyectos/ejercicio6/src/rtcMEF.c \
+ mis_proyectos/ejercicio6/inc/rtcMEF.h \
  libs/sapi/sapi_v0.5.2/base/inc/sapi.h \
  libs/sapi/sapi_v0.5.2/base/inc/sapi_datatypes.h \
  libs/lpc_open/lpc_chip_43xx/inc/chip.h \

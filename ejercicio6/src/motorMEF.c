@@ -14,33 +14,55 @@
 /*=====[Definition macros of private constants]==============================*/
 /*=====[Private function-like macros]========================================*/
 /*=====[Definitions of private data types]===================================*/
-
-// Data type that renames an elementary data type
-// Function pointer data type
-// Enumerated data type
-// Structured, union or bit field data type
-
 /*=====[Definitions of external public global variables]=====================*/
 /*=====[Definitions of public global variables]==============================*/
 /*=====[Definitions of private global variables]=============================*/
 /*=====[Prototypes (declarations) of private functions]======================*/
-void motorInit(motor_t *);
-void motorUpdate(motor_t *);
 /*=====[Implementations of public functions]=================================*/
-void motorInit(motor_t * motor){
-motor->id=0;
-motor->velocidad=0;
-motor->aceleracion=0;
-motor->estado=MOTOR_OFF;
+void motorInit(motor_t * motor) {
+	motor->id = 0;
+	motor->velocidad = 0;
+	motor->velocidad_registrada = 0;
+	motor->aceleracion = 0;
+	motor->aceleracion_registrada = 0;
+	motor->tiempo_ejecucion = 0;
+	motor->estado = MOTOR_OFF;
 
-spiInit(SPI0);
-
+//	spiInit(SPI0);
+//	TODO Envío de parametros por defector a través de SPI
+//	spiWrite(SPI0, 0x80, 1);
+//	spiWrite(SPI0, 0x00000004, 4);
+//	spiWrite(SPI0, 0xEC, 1);
+//	spiWrite(SPI0, 0x000101D5, 4);
+//	spiWrite(SPI0, 0x90, 1);
+//	spiWrite(SPI0, 0x00070603, 4);
+//	spiWrite(SPI0, 0x91, 1);
+//	spiWrite(SPI0, 0x0000000A, 4);
+//	spiWrite(SPI0, 0xF0, 1);
+//	spiWrite(SPI0, 0x000401C8, 4);
+//	spiWrite(SPI0, 0xA4, 1);
+//	spiWrite(SPI0, 0x000003E8, 4);
+//	spiWrite(SPI0, 0xA5, 1);
+//	spiWrite(SPI0, 0x000186A0, 4);
+//	spiWrite(SPI0, 0xA6, 1);
+//	spiWrite(SPI0, 0x0000C350, 4);
+//	spiWrite(SPI0, 0xA7, 1);
+//	spiWrite(SPI0, 0x000186A0, 4);
+//	spiWrite(SPI0, 0xAA, 1);
+//	spiWrite(SPI0, 0x00000578, 4);
+//	spiWrite(SPI0, 0xAB, 1);
+//	spiWrite(SPI0, 0x0000000A, 4);
+//	spiWrite(SPI0, 0xA0, 1);
+//	spiWrite(SPI0, 0x00000000, 4);
+//	spiWrite(SPI0, 0xA1, 1);
+//	spiWrite(SPI0, 0x00000000, 4);
+//	spiWrite(SPI0, 0xAD, 1);
+//	spiWrite(SPI0, 0x00000000, 4);
 }
-void motorUpdate(motor_t * motor){
-	uint8_t buffer=10;
-	uint32_t buffer_size=8;
-	spiWrite(SPI0,&buffer,buffer_size);
 
+void motorUpdate(motor_t * motor) {
+//	spiWrite(SPI0, 0xAD, 1);
+//	spiWrite(SPI0, 0x0007D000, 4);
 }
 
 /*=====[Implementations of interrupt functions]==============================*/

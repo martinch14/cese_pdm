@@ -14,7 +14,7 @@
 #define _UART_MENU_MEF_H_
 
 /*=====[Inclusions of public function dependencies]==========================*/
-
+#include <motorMEF.h>
 /*=====[C++ - begin]=========================================================*/
 
 #ifdef __cplusplus
@@ -26,13 +26,21 @@ extern "C" {
 /*=====[Public function-like macros]=========================================*/
 
 /*=====[Definitions of public data types]====================================*/
+
+
+//Estructura que define los 3 posibles menus de visualizacion
+
 typedef enum {
-	MENU_PRINCIPAL, MENU_CONF_VELOCIDAD, MENU_CONF_ACELERACION
+	MENU_PRINCIPAL, MENU_CONF_VELOCIDAD, MENU_CONF_FECHA
 } uartMenu_t;
 
 /*=====[Prototypes (declarations) of public functions]=======================*/
+
+//Inicializacion del Menu, deja seteada la pantalla principal
 void uartMenuInit(void);
-void uartMenuUpdate(void);
+//Actualizacion del Menu, se va moviendo por las diferentes pantallas y actualizando los valores en las mismas
+void uartMenuUpdate(motor_t*,rtc_t*);
+
 
 /*=====[Prototypes (declarations) of public interrupt functions]=============*/
 

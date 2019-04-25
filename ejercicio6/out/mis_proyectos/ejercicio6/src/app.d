@@ -116,6 +116,6 @@ mis_proyectos/ejercicio6/out/mis_proyectos/ejercicio6/src/app.o: \
  libs/sapi/sapi_v0.5.2/external_peripherals/inc/sapi_magnetometer_qmc5883l.h \
  libs/sapi/sapi_v0.5.2/external_peripherals/inc/sapi_imu_mpu9250.h \
  libs/sapi/sapi_v0.5.2/external_peripherals/inc/sapi_ultrasonic_hcsr04.h \
- mis_proyectos/ejercicio6/inc/debounceMEF.h \
+ mis_proyectos/ejercicio6/inc/antireboteMEF.h \
  mis_proyectos/ejercicio6/inc/motorMEF.h \
  mis_proyectos/ejercicio6/inc/uartMenuMEF.h
