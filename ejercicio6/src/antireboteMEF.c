@@ -7,9 +7,9 @@
  */
 
 /*=====[Inclusion de su propia cabecera]=====================================*/
-#include "sapi.h"
-#include "antireboteMEF.h"
-#include "motorMEF.h"
+#include <sapi.h>
+#include <antireboteMEF.h>
+#include <motorMEF.h>
 
 /*=====[Macros de definicion de constantes privadas]=========================*/
 /*=====[Macros estilo funcion privadas]======================================*/
@@ -26,6 +26,7 @@ void ApagarLedTec(gpioMap_t tecla);
 void antireboteMEFIniciar(antireboteTecla_t* p_antirebote_estructura,
 		gpioMap_t tecla) {
 	p_antirebote_estructura->tecla = tecla;
+	antireboteEstadoTecla_t TECLA_SUELTA;
 	p_antirebote_estructura->estado = TECLA_SUELTA;
 	return;
 }
