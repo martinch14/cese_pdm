@@ -36,7 +36,7 @@
 
 /*==================[inclusions]=============================================*/
 
-#include "../../ejercicio5/inc/seos_pont_2014_scheduler.h"  // <= own header
+#include "../../../cese_pdm/ejercicio5/inc/seos_pont_2014_scheduler.h"  // <= own header
 
 #include "sapi.h"                      // <= sAPI header
 

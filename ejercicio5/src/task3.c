@@ -7,7 +7,7 @@
 
 /*==================[inclusions]=============================================*/
 
-#include "../../ejercicio5/inc/task3.h"  // <= own header
+#include "../../../cese_pdm/ejercicio5/inc/task3.h"  // <= own header
 
 /*==================[macros and definitions]=================================*/
 

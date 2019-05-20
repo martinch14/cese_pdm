@@ -7,8 +7,9 @@
 
 /*==================[inclusions]=============================================*/
 
-#include "../../ejercicio5/inc/task2.h"  // <= own header
-#include "../../ejercicio5/inc/task1.h"  // <= own header
+#include "../../../cese_pdm/ejercicio5/inc/task2.h"  // <= own header
+
+#include "../../../cese_pdm/ejercicio5/inc/task1.h"  // <= own header
 /*==================[macros and definitions]=================================*/
 
 /*==================[internal data declaration]==============================*/

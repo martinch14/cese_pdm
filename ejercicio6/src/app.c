@@ -11,9 +11,10 @@
 /*=====[Inclusions of function dependencies]=================================*/
 
 #include <sapi.h>
-#include <antireboteMEF.h>
-#include <motorMEF.h>
-#include <uartMenuMEF.h>
+
+#include "../../../cese_pdm/ejercicio6/inc/antireboteMEF.h"
+#include "../../../cese_pdm/ejercicio6/inc/motorMEF.h"
+#include "../../../cese_pdm/ejercicio6/inc/uartMenuMEF.h"
 
 /*=====[Definition macros of private constants]==============================*/
 /*=====[Definitions of extern global variables]==============================*/

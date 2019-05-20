@@ -8,8 +8,9 @@
 
 /*=====[Inclusiones de dependencias de funciones]============================*/
 #include "sapi.h"
-#include "uartMenuMEF.h"
-#include "antireboteMEF.h"
+
+#include "../../../cese_pdm/ejercicio6/inc/antireboteMEF.h"
+#include "../../../cese_pdm/ejercicio6/inc/uartMenuMEF.h"
 
 /*=====[Macros de definición de constantes privadas]=========================*/
 /*=====[Definiciones de variables globales externas]=========================*/

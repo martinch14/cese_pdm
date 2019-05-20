@@ -8,12 +8,12 @@
 /*==================[inlcusiones]============================================*/
 
 //#include "cooperative_os_scheduler_03_seos_Pont2014.h"   // <= own header (optional)
-#include "../../ejercicio5/inc/seos_pont_2014_isr.h"       // <= dispatcher and task management header
-#include "../../ejercicio5/inc/seos_pont_2014_scheduler.h" // <= scheduler and system initialization header
-#include "../../ejercicio5/inc/task1.h"
-#include "../../ejercicio5/inc/task2.h"
-#include "../../ejercicio5/inc/task3.h"
 #include "sapi.h"        // <= sAPI header
+#include "../../../cese_pdm/ejercicio5/inc/seos_pont_2014_isr.h"       // <= dispatcher and task management header
+#include "../../../cese_pdm/ejercicio5/inc/seos_pont_2014_scheduler.h" // <= scheduler and system initialization header
+#include "../../../cese_pdm/ejercicio5/inc/task1.h"
+#include "../../../cese_pdm/ejercicio5/inc/task2.h"
+#include "../../../cese_pdm/ejercicio5/inc/task3.h"
 
 
 /*==================[definiciones y macros]==================================*/

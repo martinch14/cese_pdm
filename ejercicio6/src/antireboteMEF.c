@@ -7,9 +7,11 @@
  */
 
 /*=====[Inclusion de su propia cabecera]=====================================*/
+#include "../../../cese_pdm/ejercicio6/inc/antireboteMEF.h"
+
 #include <sapi.h>
-#include <antireboteMEF.h>
-#include <motorMEF.h>
+
+#include "../../../cese_pdm/ejercicio6/inc/motorMEF.h"
 
 /*=====[Macros de definicion de constantes privadas]=========================*/
 /*=====[Macros estilo funcion privadas]======================================*/

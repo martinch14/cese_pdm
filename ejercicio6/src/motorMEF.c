@@ -9,7 +9,7 @@
  */
  
 /*=====[Inclusion of own header]=============================================*/
-#include <motorMEF.h>
+#include "../../../cese_pdm/ejercicio6/inc/motorMEF.h"
 /*=====[Inclusions of private function dependencies]=========================*/
 /*=====[Definition macros of private constants]==============================*/
 /*=====[Private function-like macros]========================================*/

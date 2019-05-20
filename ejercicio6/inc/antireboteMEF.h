@@ -10,7 +10,7 @@
 #define _ANTIREBOTE_MEF_H_
 
 /*=====[Inclusiones de dependencias de funciones publicas]===================*/
-#include <motorMEF.h>
+#include "../../../cese_pdm/ejercicio6/inc/motorMEF.h"
 /*=====[C++ comienzo]========================================================*/
 
 #ifdef __cplusplus

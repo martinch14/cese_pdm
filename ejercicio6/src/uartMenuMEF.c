@@ -9,9 +9,11 @@
  */
 /*=====[Inclusion of own header]=============================================*/
 
+#include "../../../cese_pdm/ejercicio6/inc/uartMenuMEF.h"
+
 #include <sapi.h>
-#include <uartMenuMEF.h>
-#include <motorMEF.h>
+
+#include "../../../cese_pdm/ejercicio6/inc/motorMEF.h"
 /*=====[Inclusions of private function dependencies]=========================*/
 /*=====[Definition macros of private constants]==============================*/
 /*=====[Private function-like macros]========================================*/

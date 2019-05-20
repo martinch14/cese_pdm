@@ -14,7 +14,7 @@
 #define _UART_MENU_MEF_H_
 
 /*=====[Inclusions of public function dependencies]==========================*/
-#include <motorMEF.h>
+#include "../../../cese_pdm/ejercicio6/inc/motorMEF.h"
 /*=====[C++ - begin]=========================================================*/
 
 #ifdef __cplusplus

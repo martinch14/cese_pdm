@@ -36,10 +36,10 @@
 
 /*==================[inclusions]=============================================*/
 
-#include "../../ejercicio5/inc/seos_pont_2014_isr.h"       // <= own header
+#include "../../../cese_pdm/ejercicio5/inc/seos_pont_2014_isr.h"       // <= own header
 
-#include "../../ejercicio5/inc/seos_pont_2014_scheduler.h" // <= dispatcher and task management header
 #include "sapi.h"                     // <= sAPI header
+#include "../../../cese_pdm/ejercicio5/inc/seos_pont_2014_scheduler.h" // <= dispatcher and task management header
 
 /*==================[macros and definitions]=================================*/
 
